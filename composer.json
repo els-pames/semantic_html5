@@ -1,23 +1,19 @@
 {
-	"name":"menatwork/semantic_html5",
+	"name":"elsen/semantic_html5",
 	"description":"Create html5 elements as content element",
 	"keywords":["html5","semantic","contentelements","wrapper"],
-	"type":"contao-module",
-	"homepage":"http://www.men-at-work.de",
+	"type":"contao-module",	
 	"license":"LGPL-3.0+",
 	"authors":[
 		{
 			"name":"David Maack",
 			"email":"david.maack@arcor.de",
 			"role":"Developer"
+		},
+		{ 
+			"name": "Patrick Ames"
 		}
 	],
-	"support":{
-		"email":"contao@men-at-work.de",
-		"issues":"https://github.com/menatwork/semantic_html5/issues",
-		"irc":"irc://irc.freenode.org/contao.dev",
-		"source":"https://github.com/menatwork/semantic_html5"
-	},
 	"require":{
 		"php": "^7.2|^8.0",
     		"contao/core-bundle": "^4.4.8",
